@@ -353,12 +353,112 @@ b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE",
 
 ## After adding column t2_added_col_try2 to MySQLDB_copy.t2 and full scan -------------
 
-```json
+
 Assignment: [TopicPartition{topic=ATLAS_ENTITIES,partition=0,offset=-1001,error=None}]
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.61.43","msgCreatedBy":"","msgCreationTime":1663628248140,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_column","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2#t2_added_col_try2","name":"t2_added_col_try2"},"guid":"daaca6ab-9e06-48f5-ad8a-bdf6f6f60004","displayText":"t2_added_col_try2","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663628247683}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.61.43","msgCreatedBy":"","msgCreationTime":1663628248140,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_table","attributes":{"createTime":1663364981000,"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t1","name":"t1"},"guid":"ae4dbf2e-6c0e-45df-9b00-fbf6f6f60000","displayText":"t1","isIncomplete":false},"operationType":"ENTITY_UPDATE","eventTime":1663628247683}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.61.43","msgCreatedBy":"","msgCreationTime":1663628248140,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_table","attributes":{"createTime":1663365062000,"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2","name":"t2"},"guid":"daaca6ab-9e06-48f5-ad8a-bdf6f6f60000","displayText":"t2","isIncomplete":false},"operationType":"ENTITY_UPDATE","eventTime":1663628247683}}'
-```
+
+1. 
+    ```json
+    {
+        "version": {
+            "version": "1.0.0",
+            "versionParts": [
+                1
+            ]
+        },
+        "msgCompressionKind": "NONE",
+        "msgSplitIdx": 1,
+        "msgSplitCount": 1,
+        "msgSourceIP": "10.244.61.43",
+        "msgCreatedBy": "",
+        "msgCreationTime": 1663628248140,
+        "spooled": false,
+        "message": {
+            "type": "ENTITY_NOTIFICATION_V2",
+            "entity": {
+                "typeName": "azure_sql_column",
+                "attributes": {
+                    "qualifiedName": "mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2#t2_added_col_try2",
+                    "name": "t2_added_col_try2"
+                },
+                "guid": "daaca6ab-9e06-48f5-ad8a-bdf6f6f60004",
+                "displayText": "t2_added_col_try2",
+                "isIncomplete": false
+            },
+            "operationType": "ENTITY_CREATE",
+            "eventTime": 1663628247683
+        }
+    }
+    ```
+
+1. 
+    ```json
+    {
+        "version": {
+            "version": "1.0.0",
+            "versionParts": [
+                1
+            ]
+        },
+        "msgCompressionKind": "NONE",
+        "msgSplitIdx": 1,
+        "msgSplitCount": 1,
+        "msgSourceIP": "10.244.61.43",
+        "msgCreatedBy": "",
+        "msgCreationTime": 1663628248140,
+        "spooled": false,
+        "message": {
+            "type": "ENTITY_NOTIFICATION_V2",
+            "entity": {
+                "typeName": "azure_sql_table",
+                "attributes": {
+                    "createTime": 1663364981000,
+                    "qualifiedName": "mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t1",
+                    "name": "t1"
+                },
+                "guid": "ae4dbf2e-6c0e-45df-9b00-fbf6f6f60000",
+                "displayText": "t1",
+                "isIncomplete": false
+            },
+            "operationType": "ENTITY_UPDATE",
+            "eventTime": 1663628247683
+        }
+    }
+    ```
+
+1. 
+    ```json
+    {
+        "version": {
+            "version": "1.0.0",
+            "versionParts": [
+                1
+            ]
+        },
+        "msgCompressionKind": "NONE",
+        "msgSplitIdx": 1,
+        "msgSplitCount": 1,
+        "msgSourceIP": "10.244.61.43",
+        "msgCreatedBy": "",
+        "msgCreationTime": 1663628248140,
+        "spooled": false,
+        "message": {
+            "type": "ENTITY_NOTIFICATION_V2",
+            "entity": {
+                "typeName": "azure_sql_table",
+                "attributes": {
+                    "createTime": 1663365062000,
+                    "qualifiedName": "mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2",
+                    "name": "t2"
+                },
+                "guid": "daaca6ab-9e06-48f5-ad8a-bdf6f6f60000",
+                "displayText": "t2",
+                "isIncomplete": false
+            },
+            "operationType": "ENTITY_UPDATE",
+            "eventTime": 1663628247683
+        }
+    }
+    ```
 
 
 ## After changing type of column t2_added_col_try2 from int to varchar(30)
