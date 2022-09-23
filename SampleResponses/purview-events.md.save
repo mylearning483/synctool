@@ -1,13 +1,46 @@
-Assignment: [TopicPartition{topic=ATLAS_ENTITIES,partition=0,offset=-1001,error=None}]
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.0.13","msgCreatedBy":"","msgCreationTime":1663605857726,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_server","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy","name":"mylearning483.database.windows.net"},"guid":"1e60c02e-a149-4a4c-a02b-177124002ecc","displayText":"mylearning483.database.windows.net","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605857120}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.0.13","msgCreatedBy":"","msgCreationTime":1663605857726,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_schema","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo","name":"dbo"},"guid":"a7e06e2b-e6da-417f-804d-0c8718a93921","displayText":"dbo","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605857120}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.0.13","msgCreatedBy":"","msgCreationTime":1663605857726,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_db","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy","name":"MySQLDB_Copy"},"guid":"247854c2-cabb-4900-a011-1da782030b03","displayText":"MySQLDB_Copy","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605857120}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_table","attributes":{"createTime":1663364981000,"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t1","name":"t1"},"guid":"ae4dbf2e-6c0e-45df-9b00-fbf6f6f60000","displayText":"t1","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_column","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t1#col1","name":"col1"},"guid":"ae4dbf2e-6c0e-45df-9b00-fbf6f6f60001","displayText":"col1","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_column","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t1#col2","name":"col2"},"guid":"ae4dbf2e-6c0e-45df-9b00-fbf6f6f60002","displayText":"col2","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_table","attributes":{"createTime":1663365062000,"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2","name":"t2"},"guid":"daaca6ab-9e06-48f5-ad8a-bdf6f6f60000","displayText":"t2","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_column","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2#t2col1","name":"t2col1"},"guid":"daaca6ab-9e06-48f5-ad8a-bdf6f6f60001","displayText":"t2col1","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
-b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_column","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2#t2col2","name":"t2col2"},"guid":"daaca6ab-9e06-48f5-ad8a-bdf6f6f60002","displayText":"t2col2","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
+# Events generated by the initial scan
+
+```json
+1. b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.0.13","msgCreatedBy":"","msgCreationTime":1663605857726,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_server","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy","name":"mylearning483.database.windows.net"},"guid":"1e60c02e-a149-4a4c-a02b-177124002ecc","displayText":"mylearning483.database.windows.net","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605857120}}'
+1. {
+    "version": {
+        "version": "1.0.0",
+        "versionParts": [
+            1
+        ]
+    },
+    "msgCompressionKind": "NONE",
+    "msgSplitIdx": 1,
+    "msgSplitCount": 1,
+    "msgSourceIP": "10.244.0.13",
+    "msgCreatedBy": "",
+    "msgCreationTime": 1663605857726,
+    "spooled": false,
+    "message": {
+        "type": "ENTITY_NOTIFICATION_V2",
+        "entity": {
+            "typeName": "azure_sql_server",
+            "attributes": {
+                "qualifiedName": "mssql://mylearning483.database.windows.net/MySQLDB_Copy",
+                "name": "mylearning483.database.windows.net"
+            },
+            "guid": "1e60c02e-a149-4a4c-a02b-177124002ecc",
+            "displayText": "mylearning483.database.windows.net",
+            "isIncomplete": false
+        },
+        "operationType": "ENTITY_CREATE",
+        "eventTime": 1663605857120
+    }
+}
+1. b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.0.13","msgCreatedBy":"","msgCreationTime":1663605857726,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_schema","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo","name":"dbo"},"guid":"a7e06e2b-e6da-417f-804d-0c8718a93921","displayText":"dbo","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605857120}}'
+1. b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.0.13","msgCreatedBy":"","msgCreationTime":1663605857726,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_db","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy","name":"MySQLDB_Copy"},"guid":"247854c2-cabb-4900-a011-1da782030b03","displayText":"MySQLDB_Copy","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605857120}}'
+1. b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_table","attributes":{"createTime":1663364981000,"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t1","name":"t1"},"guid":"ae4dbf2e-6c0e-45df-9b00-fbf6f6f60000","displayText":"t1","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
+1. b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_column","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t1#col1","name":"col1"},"guid":"ae4dbf2e-6c0e-45df-9b00-fbf6f6f60001","displayText":"col1","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
+1. b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_column","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t1#col2","name":"col2"},"guid":"ae4dbf2e-6c0e-45df-9b00-fbf6f6f60002","displayText":"col2","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
+1. b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_table","attributes":{"createTime":1663365062000,"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2","name":"t2"},"guid":"daaca6ab-9e06-48f5-ad8a-bdf6f6f60000","displayText":"t2","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
+1. b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_column","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2#t2col1","name":"t2col1"},"guid":"daaca6ab-9e06-48f5-ad8a-bdf6f6f60001","displayText":"t2col1","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
+1. b'{"version":{"version":"1.0.0","versionParts":[1]},"msgCompressionKind":"NONE","msgSplitIdx":1,"msgSplitCount":1,"msgSourceIP":"10.244.60.152","msgCreatedBy":"","msgCreationTime":1663605880345,"spooled":false,"message":{"type":"ENTITY_NOTIFICATION_V2","entity":{"typeName":"azure_sql_column","attributes":{"qualifiedName":"mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/t2#t2col2","name":"t2col2"},"guid":"daaca6ab-9e06-48f5-ad8a-bdf6f6f60002","displayText":"t2col2","isIncomplete":false},"operationType":"ENTITY_CREATE","eventTime":1663605879832}}'
+```
 
 
 ----------- 2nd try with a new group number ----------------
