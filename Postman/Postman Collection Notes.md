@@ -4,5 +4,5 @@ In orderr to use this Postman collection, create a Postman environment called 'P
 
 Populate it with the following variables:
 
-1. basePurviewUrl = https://MyLearning483.purview.azure.com/
+1. basePurviewUrl = https://MyLearning483.purview.azure.com
 1. baseUrl = {{basePurviewUrl}}/catalog/api
