@@ -1,0 +1,17 @@
+{
+    "name": "sqvhq0",
+    "friendlyName": "carid_1234",
+    "parentCollection": {
+        "type": "CollectionReference",
+        "referenceName": "fca1ck"
+    },
+    "systemData": {
+        "createdBy": "854a1025-387b-451f-abef-58a712d3782c",
+        "createdByType": "User",
+        "createdAt": "2022-09-16T16:51:12.440308Z",
+        "lastModifiedBy": "854a1025-387b-451f-abef-58a712d3782c",
+        "lastModifiedByType": "User",
+        "lastModifiedAt": "2022-09-16T16:51:12.4403087Z"
+    },
+    "collectionProvisioningState": "Succeeded"
+}

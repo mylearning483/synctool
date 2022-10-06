@@ -1,0 +1,356 @@
+{
+    "referredEntities": {
+        "c3356e6e-c70d-4eb3-a238-eaf6f6f60001": {
+            "typeName": "azure_sql_column",
+            "attributes": {
+                "owner": null,
+                "userTypeId": 167,
+                "columnEncryptionKeyDatabaseName": null,
+                "replicatedTo": null,
+                "userDescription": null,
+                "replicatedFrom": null,
+                "qualifiedName": "mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/account#email",
+                "displayName": "email",
+                "sqlDescription": null,
+                "precision": 0,
+                "length": 30,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": null,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": null,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "email",
+                "data_type": "varchar",
+                "encryptionAlgorithmName": null,
+                "systemTypeId": 167
+            },
+            "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60001",
+            "isIncomplete": false,
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "854a1025-387b-451f-abef-58a712d3782c",
+            "createTime": 1663633328730,
+            "updateTime": 1663874693325,
+            "version": 0,
+            "source": "PurviewPortal",
+            "collectionId": "sqvhq0",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "sources": [],
+                "sinks": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "table": {
+                    "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60000",
+                    "typeName": "azure_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "account",
+                    "relationshipType": "azure_sql_table_columns",
+                    "relationshipGuid": "50ee43e8-938c-48dd-95a9-1ef9e2f14cf1",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_sql_table_columns"
+                    }
+                },
+                "outputFromProcesses": []
+            },
+            "labels": []
+        },
+        "c3356e6e-c70d-4eb3-a238-eaf6f6f60002": {
+            "typeName": "azure_sql_column",
+            "attributes": {
+                "owner": null,
+                "userTypeId": 167,
+                "columnEncryptionKeyDatabaseName": null,
+                "replicatedTo": null,
+                "userDescription": null,
+                "replicatedFrom": null,
+                "qualifiedName": "mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/account#name",
+                "displayName": "name",
+                "sqlDescription": null,
+                "precision": 0,
+                "length": 30,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": null,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": null,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "name",
+                "data_type": "varchar",
+                "encryptionAlgorithmName": null,
+                "systemTypeId": 167
+            },
+            "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60002",
+            "isIncomplete": false,
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1663633328730,
+            "updateTime": 1663874693325,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "sqvhq0",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "sources": [],
+                "sinks": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "table": {
+                    "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60000",
+                    "typeName": "azure_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "account",
+                    "relationshipType": "azure_sql_table_columns",
+                    "relationshipGuid": "59469e09-9856-4c7f-bd0f-1d586a38e0ca",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_sql_table_columns"
+                    }
+                },
+                "outputFromProcesses": []
+            },
+            "labels": []
+        },
+        "c3356e6e-c70d-4eb3-a238-eaf6f6f60003": {
+            "typeName": "azure_sql_column",
+            "attributes": {
+                "owner": null,
+                "userTypeId": 167,
+                "columnEncryptionKeyDatabaseName": null,
+                "replicatedTo": null,
+                "userDescription": null,
+                "replicatedFrom": null,
+                "qualifiedName": "mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/account#address",
+                "displayName": "address",
+                "sqlDescription": null,
+                "precision": 0,
+                "length": 200,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": null,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": null,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "address",
+                "data_type": "varchar",
+                "encryptionAlgorithmName": null,
+                "systemTypeId": 167
+            },
+            "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60003",
+            "isIncomplete": false,
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1663633328730,
+            "updateTime": 1663874693325,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "sqvhq0",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "sources": [],
+                "sinks": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "table": {
+                    "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60000",
+                    "typeName": "azure_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "account",
+                    "relationshipType": "azure_sql_table_columns",
+                    "relationshipGuid": "69d3c70b-1e38-40ee-90af-891fd606d4f2",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_sql_table_columns"
+                    }
+                },
+                "outputFromProcesses": []
+            },
+            "labels": []
+        },
+        "c3356e6e-c70d-4eb3-a238-eaf6f6f60004": {
+            "typeName": "azure_sql_column",
+            "attributes": {
+                "owner": null,
+                "userTypeId": 167,
+                "columnEncryptionKeyDatabaseName": null,
+                "replicatedTo": null,
+                "userDescription": null,
+                "replicatedFrom": null,
+                "qualifiedName": "mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/account#address2",
+                "displayName": "address2",
+                "sqlDescription": null,
+                "precision": 0,
+                "length": 200,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": null,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": null,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "address2",
+                "data_type": "varchar",
+                "encryptionAlgorithmName": null,
+                "systemTypeId": 167
+            },
+            "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60004",
+            "isIncomplete": false,
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1663633328730,
+            "updateTime": 1663874693325,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "sqvhq0",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "sources": [],
+                "sinks": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "table": {
+                    "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60000",
+                    "typeName": "azure_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "account",
+                    "relationshipType": "azure_sql_table_columns",
+                    "relationshipGuid": "38334482-104b-421c-9534-5ef7d46f16f3",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_sql_table_columns"
+                    }
+                },
+                "outputFromProcesses": []
+            },
+            "labels": []
+        }
+    },
+    "entity": {
+        "typeName": "azure_sql_table",
+        "attributes": {
+            "owner": null,
+            "modifiedTime": 1663865087000,
+            "replicatedTo": null,
+            "userDescription": null,
+            "replicatedFrom": null,
+            "createTime": 1663632835000,
+            "qualifiedName": "mssql://mylearning483.database.windows.net/MySQLDB_Copy/dbo/account",
+            "displayName": "name",
+            "name": "account",
+            "description": null,
+            "principalId": 0,
+            "objectType": "U "
+        },
+        "lastModifiedTS": "7",
+        "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60000",
+        "isIncomplete": false,
+        "status": "ACTIVE",
+        "createdBy": "ServiceAdmin",
+        "updatedBy": "ServiceAdmin",
+        "createTime": 1663633328730,
+        "updateTime": 1663874693325,
+        "version": 0,
+        "source": "DataScan",
+        "sourceDetails": {
+            "ScanResourceId": "datasources/MySQLDB/scans/Scan-MySQLDB_Copy",
+            "ScanLastModifiedAt": "2022-09-19T22:09:50.7338632Z",
+            "ScanRuleSetResourceId": "scanrulesets/AzureSqlDatabase",
+            "ScanRuleSetLastModifiedAt": "2021-12-02T09:35:23.5331372Z",
+            "__schemaModifiedBy": "DataScan",
+            "__schemaModifiedTime": 1663874693325
+        },
+        "collectionId": "sqvhq0",
+        "relationshipAttributes": {
+            "schema": [],
+            "inputToProcesses": [],
+            "dbSchema": {
+                "guid": "a7e06e2b-e6da-417f-804d-0c8718a93921",
+                "typeName": "azure_sql_schema",
+                "entityStatus": "ACTIVE",
+                "displayText": "dbo",
+                "relationshipType": "azure_sql_schema_tables",
+                "relationshipGuid": "822d19f9-ac3b-4760-aa25-6257836f25cc",
+                "relationshipStatus": "ACTIVE",
+                "relationshipAttributes": {
+                    "typeName": "azure_sql_schema_tables"
+                }
+            },
+            "sources": [],
+            "sinks": [],
+            "columns": [
+                {
+                    "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60003",
+                    "typeName": "azure_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "address",
+                    "relationshipType": "azure_sql_table_columns",
+                    "relationshipGuid": "69d3c70b-1e38-40ee-90af-891fd606d4f2",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60004",
+                    "typeName": "azure_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "address2",
+                    "relationshipType": "azure_sql_table_columns",
+                    "relationshipGuid": "38334482-104b-421c-9534-5ef7d46f16f3",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60001",
+                    "typeName": "azure_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "email",
+                    "relationshipType": "azure_sql_table_columns",
+                    "relationshipGuid": "50ee43e8-938c-48dd-95a9-1ef9e2f14cf1",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "c3356e6e-c70d-4eb3-a238-eaf6f6f60002",
+                    "typeName": "azure_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "name",
+                    "relationshipType": "azure_sql_table_columns",
+                    "relationshipGuid": "59469e09-9856-4c7f-bd0f-1d586a38e0ca",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_sql_table_columns"
+                    }
+                }
+            ],
+            "attachedSchema": [],
+            "meanings": [],
+            "outputFromProcesses": []
+        },
+        "labels": []
+    }
+}
