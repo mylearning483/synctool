@@ -49,7 +49,7 @@ def get_collection_path(access_token, collection_name):
     return f'{parent_path}/{friendly_name}'
 
 
-if __name__ == '__main__':
+def main():
     optlist, argv = getopt.getopt(sys.argv[1:], 'T:')
     if len(argv) != 1:
         print_usage_and_exit(sys.argv[0])
@@ -93,7 +93,8 @@ if __name__ == '__main__':
         print(f'ERROR: failed to build collection path\n {e}')
         raise SystemExit(e)
        
-
+if __name__ == '__main__':
+    main()
 
 
 
