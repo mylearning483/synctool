@@ -45,7 +45,7 @@ def get_collection_path(access_token, collection_name):
         return ""
 
     parent_name = r_json ['parentCollection']['referenceName']
-    parent_path = get_collection_path(access_token, parent_name)
+    parent_path = get_collection_path(access_token, parent_name)  # recurse
     return f'{parent_path}/{friendly_name}'
 
 
