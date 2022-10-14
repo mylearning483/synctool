@@ -19,12 +19,6 @@ PURVIEW_HOST = 'MyLearning483.purview.azure.com'
 ROOT_COLLECTION = "usb_root"       # Root collection for US Bank datasets
 ROOT_COLLECTION = "MyLearning483"  # TODO: use until we reorg collections under 'usb_root'
 
-
-def stats_cb(stats_json_str):
-    stats_json = json.loads(stats_json_str)
-    print('\nKAFKA Stats: {}\n'.format(pformat(stats_json)))
-
-
 def print_usage_and_exit(program_name):
     sys.stderr.write(f'Usage:   {program_name} <collection_name>\n')
     sys.stderr.write(f'Example: {program_name} sqvhq0\n')
