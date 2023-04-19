@@ -3,3 +3,4 @@ api_key = <SENDGRID_API_KEY>
 from_email = <FROM_EMAIL_ADDRESS>
 to_email = <TO_EMAIL_ADDRESS>
 message = <MESSAGE_TEXT>
+
