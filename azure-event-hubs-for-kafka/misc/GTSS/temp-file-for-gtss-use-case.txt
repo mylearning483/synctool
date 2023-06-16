@@ -1,0 +1,544 @@
+
+
+
+
+Template:
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment
+the shipment vessels 
+#### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+
+###Response: Let's think step by step.
+
+
+#11 ---------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment
+the shipment vessels 
+#### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+12. SHIPMENT/TRANSSHIPMENT OT BE EFFECTED ON VESSEL Authorized
+OT ENTER PORTS OF BANGLADESH ACCORDING TO ITS RULES AND
+REGULATIONS
+###Response: Let's think step by step.
+
+CHAT GPT:
+Based on the provided text, the following rules have been violated:
+
+- Rule Authorized Ports Rule: The text mentions that the shipment/transshipment should be effected on a vessel authorized to enter ports of Bangladesh according to its rules and regulations. This violates the rule that states there must be no requirement that the shipment vessel be authorized to enter the ports of boycotting countries.
+
+Therefore, the violated rule is:
+
+- Rule Authorized Ports Rule: There must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries. There must also be no requirement that the shipment company operate in compliance with the laws of boycotting countries regarding vessel, flags, port, shipment, and transshipment.
+
+No other rules have been violated.
+
+
+#10 ----------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment
+the shipment vessels 
+#### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+DOCUMENTARY CREDIT NO. AND
+DATE, THE WORD "IMPORT UNDER BONDED FACILITY" MUST APPEAR 
+IN INVOICE.
+2) SHIPMENT PRIOR TO L/C DATE NOT ACCEPTABLE
+3) SHIPMENT ACCORDING TO BANGALADESHI LAWS
+4) COUNTRY OF ORIGIN TO BE MENTIONED CLEARLY ON GOODS OR GOODS
+PACKAGES OR CONTAINER AND A CERTIFICATE TO THIS EFFECT ISSUED BY
+THE BENEFICIARY MUST ACCOMPANY THE ORIGINAL DOCS.
+5) FCR/CHARTER PARTY/SHORT FORM/STALE AND BLANK BACKED L/R IS NOT
+ACCEPTABLE
+###Response: Let's think step by step.
+
+CHAT GPT:
+
+Based on the provided rules and the text, let's review if any rules were violated:
+
+1. ### Rule Not From Agent Rule: certificates cannot come from agents.
+   - This rule is not violated as there is no mention of certificates or agents in the text.
+
+2. ### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part from or processed in boycotted countries.
+   - This rule is not violated as there is no mention of boycotted countries or any prohibition related to them.
+
+3. ### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries. There must also be no requirement that the shipment company operate in compliance with the laws of boycotting countries regarding vessel, flags, port, shipment, and transshipment.
+   - This rule is not violated as there is no mention of authorization requirements or compliance with laws related to boycotting countries.
+
+4. ### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels from entering or going through countries and ports of boycotted countries.
+   - This rule is not violated as there is no mention of any prohibition on shipment vessels entering or going through boycotted countries.
+
+### No rules were violated.
+
+JJ: 
+is there no mention of compliance with laws of boycotting countries?
+
+Chat gpt:
+Apologies for the oversight. Upon re-evaluating the text, it does mention compliance with laws, specifically "SHIPMENT ACCORDING TO BANGLADESHI LAWS" in point 3. 
+
+Therefore, the violation is as follows:
+
+- Rule Authorized Ports Rule: there must be no requirement that the shipment company operate in compliance with the laws of boycotting countries regarding vessel, flags, port, shipment, and transshipment.
+
+I apologize for the confusion caused by my previous response.
+
+
+#9 ----------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment
+the shipment vessels 
+#### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+5. CERTIFICATE FROM SHIPPING COMPANY OR THEIR AGENTS
+REQUIRED STATING THAT THEH CARRYING VESSEL IS
+I) COVERED UNDER INSTITUTE CLASSIFICATION CLAUSE
+II) ALLOWED TO ENTER PAKISTAN ACCORDING 
+TO ITS RULES AND
+REGULATIONS.
+###Response: Let's think step by step.
+
+
+First, let's identify the relevant rules in the given text:
+
+1. ### Rule Not From Agent Rule: certificates cannot come from agents.
+2. ### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part from or processed in boycotted countries.
+3. ### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries. There must also be no requirement that the shipment company operate in compliance with the laws of boycotting countries regarding vessel, flags, port, shipment, and transshipment.
+4. ### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels from entering or going through countries and ports of boycotted countries.
+
+Now let's review the text and see if there are any violations of these rules:
+
+In the given text, it mentions that a certificate is required from the shipping company or their agents. According to the ### Rule Not From Agent Rule, certificates cannot come from agents. Therefore, this rule has been violated.
+
+### Violated Rule:
+- ### Rule Not From Agent Rule
+
+
+#8 ---------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment
+the shipment vessels 
+#### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+(10)  BILL OF LADING TO MENTION GOODS ARE SHIPPED/TRANSHIPPED 
+HONORING PAKISTANI LAWS AND REGULATIONS ALSO MENTIONING NAME
+ADDRESS, PHONE NUMBER, FAX NUMBER OF SHIPPING CO. AGENT IN 
+PAKISTAN AND ETA.
+###Response: Let's think step by step.
+
+CHAT GPT:
+
+First, let's identify the relevant rules in the given text:
+
+1. ###Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part from or processed in boycotted countries.
+2. ###Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries. There must also be no requirement that the shipment company operate in compliance with the laws of boycotting countries regarding vessel, flags, port, shipment, and transshipment.
+3. ###Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels from entering or going through countries and ports of boycotted countries.
+
+Now let's review the text and see if there are any violations of these rules:
+
+In the given text, it mentions that the bill of lading should mention that the goods are shipped/transshipped honoring Pakistani laws and regulations. There is no explicit prohibition mentioned for goods originating from or processed in boycotted countries. However, it does specify the requirement to mention the name, address, phone number, and fax number of the shipping company agent in Pakistan. This could potentially imply compliance with the laws of boycotting countries regarding vessel, flags, port, shipment, and transshipment.
+
+Therefore, the ###Rule Authorized Ports Rule may have been violated.
+
+### Violated Rule:
+- ###Rule Authorized Ports Rule
+
+#7 --------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment
+the shipment vessels 
+#### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+(1) TRANSPORTATION SHOULD BE EFFECTED BY COMPANIES OPERATING
+IN ACCORDANCE WITH BANGLADESHI LAWS AND REGULATIONS
+REGARDING VESSEL, FLAG, AIRPORT, SEAPORT, SHIPMENT AND 
+TRANSSHIPMENT
+###Response: Let's think step by step.
+
+
+
+#6 ----------
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+companies operate with laws of boycotting countries regarding vessel, flags, port, shipment and 
+transshipment
+the shipment vessels 
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+14. IN BASE SHIPPED GOODS ARE OF THE ORIGIN OR PRODUCE OR
+SHIPPED OR TRANSSHIP THROUGH ANY IRANIAN OR ISRAELI
+AIRPORT/SEAPORT ARE STRICTLY PROHIBITED UNDER THIS LC
+###Response: Let's think step by step.
+
+CHAT GPT:
+First, let's identify the relevant rules in the given text:
+
+1. ###Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part from or processed in boycotted countries.
+2. ###Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries. There must also be no requirement that the shipment companies operate with laws of boycotting countries regarding vessel, flags, port, shipment, and transshipment.
+3. ###Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels from entering or going through countries and ports of boycotted countries.
+
+Now let's review the text and see if there are any violations of these rules:
+
+In the given text, it states that goods originating from or shipped through any Iranian or Israeli airport/seaport are strictly prohibited under this LC (Letter of Credit). This violates the ###Rule Country of Origin Rule because it prohibits goods originating from boycotted countries (Israel) and also prohibits goods being shipped through Israeli airports/seaports.
+
+Therefore, the violated rule is the ###Rule Country of Origin Rule.
+
+### Violated Rule: Country of Origin Rule
+
+
+#5 ----------
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+companies operate with laws of boycotting countries regarding vessel, flags, port, shipment and 
+transshipment
+the shipment vessels 
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+12) TRANSPORTATION SHOULD BE EFFECTED BY COMPANIES OPERATING IN 
+ACCORDANCE WITH BANGLADESH LAWS AND REGULATIONS REGARDING
+VESSEL, FLAGS, PORT, SHIPMENT AND TRANSSHIPMENT
+###Response: Let's think step by step.
+
+Chat GPT:
+First, let's identify the relevant rules in the given text:
+
+###Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part from or processed in boycotted countries.
+###Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries. There must also be no requirement that the shipment companies operate with laws of boycotting countries regarding vessel, flags, port, shipment, and transshipment.
+###Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels from entering or going through countries and ports of boycotted countries.
+Now let's review the text and see if there are any violations of these rules:
+
+In the given text, it mentions that transportation should be effected by companies operating in accordance with Bangladesh laws and regulations regarding vessel, flags, port, shipment, and transshipment. This violates the ###Rule Authorized Ports Rule because it requires the shipment companies to operate in accordance with the laws and regulations of Bangladesh, which is one of the boycotting countries.
+
+Therefore, the violated rule is the ###Rule Authorized Ports Rule.
+
+Violated Rule: Authorized Ports Rule
+
+
+#4 ------------
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+12) TRANSPORTATION SHOULD BE EFFECTED BY COMPANIES OPERATING IN 
+ACCORDANCE WITH BANGLADESH LAWS AND REGULATIONS REGARDING
+VESSEL, FLAGS, PORT, SHIPMENT AND TRANSSHIPMENT
+###Response: Let's think step by step.
+
+CHat GPT:
+
+First, let's identify the relevant rules in the given text:
+
+1. ###Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part from or processed in boycotted countries.
+2. ###Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries.
+3. ###Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels from entering or going through countries and ports of boycotted countries.
+
+Now let's review the text and see if there are any violations of these rules:
+
+In the given text, there is no direct mention of any boycotted country or goods originating from boycotted countries. Hence, the text does not violate the ###Rule Country of Origin Rule.
+
+The text mentions that transportation should be in accordance with Bangladesh laws and regulations regarding vessel, flags, port, shipment, and transshipment. There is no explicit requirement for the shipment vessel to be authorized to enter boycotting countries or any prohibition of shipment vessels. Therefore, the text does not violate the ###Rule Authorized Ports Rule or the ###Rule No Prohibition of Ports Rule.
+
+Therefore, no rules were violated.
+
+### No rules were violated.
+
+
+#3 -----------
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+GOODS OF ISRAELI Origin
+PROHIBITED
+###Response: Let's think step by step.
+
+Chat GPT:
+First, let's identify the relevant rules in the given text:
+
+###Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part from or processed in boycotted countries.
+###Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries.
+###Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels from entering or going through countries and ports of boycotted countries.
+Now let's review the text and see if there are any violations of these rules:
+
+In the given text, it states that "GOODS OF ISRAELI Origin" are prohibited. This directly violates the ###Rule Country of Origin Rule because it prohibits goods originating from the boycotted country, which is Israel.
+
+Additionally, there is no mention of any shipment vessel or authorization of entry in the text. Hence, the text does not violate the ###Rule Authorized Ports Rule or the ###Rule No Prohibition of Ports Rule.
+
+Therefore, the violated rule is the ###Rule Country of Origin Rule.
+
+Violated Rule: Country of Origin Rule
+
+
+
+#2 -----------
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
++6. A CERTIFICATE FROM THE OWNERS/CARRIERS/MASTER OF VESSEL OR
+THEIR AGENTS CERTIFY
+(A) THAT THE GOODS HAVE BEEN SHIPPED BY REGULAR LINE VESSEL, which
+IS NOT PROHIBITED FROM ENTERING ARAB PORTS FOR ANY REASON AND IS
+NOT OVER 25 OPERATING YEARS OF AGE AND HAVE ESTABLISHED AND
+MAINTAINED A REGULAR PATTERN OF TRADING AND AN ADVERTISED 
+SCHEDULE TO LOAD AND UNLOAD AT SPECIFIED PORTS AND COVERED BY
+INSTITUTE CLASSIFICATION SOCIETY
+###Response: Let's think step by step.
+
+
+CHAT GPT:
+
+First, let's identify the relevant rules in the given text:
+
+###Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries.
+###Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels from entering or going through countries and ports of boycotted countries.
+Now let's review the text and see if there are any violations of these rules:
+
+In the given text, we see the mention of Arab ports. The text states that the vessel should not be prohibited from entering Arab ports for any reason.
+
+This violates the ###Rule No Prohibition of Ports Rule because it specifically mentions the prohibition of vessels from entering Arab ports. Although Arab countries are not explicitly mentioned in the list of boycotted countries, the rule states that there should be no prohibition of shipment vessels from going through countries and ports of boycotted countries. Therefore, mentioning a prohibition in relation to Arab ports raises a potential violation of this rule.
+
+Additionally, there is no mention of Israel, which is the boycotted country, in the text. Hence, the text does not violate the ###Rule Authorized Ports Rule.
+
+Therefore, the violated rule is the ###Rule No Prohibition of Ports Rule.
+
+Violated Rule: No Prohibition of Ports Rule
+
+
+
+
+
+
+#1 ------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. When you respond name all the rules that were violated. 
+If no rules were violated, say "no rules were violated". 
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+### Rules:
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Text:
+5. CERTIFICATE FROM SHIPPING COMPANY OR THEIR AGENTS
+REQUIRED STATING THAT THE CARRYING VESSEL IS 
+I) COVERTED UNDER INSTITUTE COASSIFICATION CLAUSE
+II) ALOWED TO ENTER PAKISTAN ACCORDING TO ITS RULES and
+REGULATIONS
+###Response: Let's think step by step.
+
+CHAT GPT RESPONSE:
+First, let's identify the relevant rules in the given text:
+
+1. ###Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter the countries or ports of boycotting countries.
+2. ###Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels from entering or going through countries and ports of boycotted countries.
+
+Now let's review the text and see if there are any violations of these rules:
+
+In the given text, we see the mention of Pakistan, which is one of the boycotting countries. The text states that the carrying vessel must be allowed to enter Pakistan according to its rules and regulations.
+
+This violates the ###Rule Authorized Ports Rule because it requires the vessel to be authorized to enter a boycotting country, which is Pakistan in this case.
+
+Therefore, the violated rule is the ###Rule Authorized Ports Rule.
+
+### Violated Rule: Authorized Ports Rule
+
+
+#2 ------------
+
+
