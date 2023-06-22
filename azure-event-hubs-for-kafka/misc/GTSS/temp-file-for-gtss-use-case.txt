@@ -4,31 +4,910 @@
 
 Template:
 
-### Instruction: below there are some facts in the ###Facts section.
+## Instruction: below there are some facts in the ###Facts section.
 Next ###Rules section hasrules about the text in a document. 
 Each rule has a rule name that follows the string "###Rule"
 Your role is to review the text in the ###Text section and flag any violations
-of those rules. When you respond name all the rules that were violated. 
-If no rules were violated, say "no rules were violated". 
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of "Boycotted Countries": Israel
+List of "Boycotting Countries": Pakistan, Bangladesh, some Arab countries
+List of "Boycott Blacklists": Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment. NOTE: since only some Arab countries are boycotting countries
+such a requirement is invalid only if it applies to any or all Arab countries.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There should be no requirement that the shipment vessels be not included in any of the "Boycott Blacklists".
+Shipment vessels boycotted by any of the "Boycotting Countries" should not be prohibited.
+
+###Text:
+
+###Response: Let's think step by step.
+
+====================================================================================================
+
+
+#35 ----------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of "Boycotted Countries": Israel
+List of "Boycotting Countries": Pakistan, Bangladesh, some Arab countries
+List of "Boycott Blacklists": Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment. NOTE: since only some Arab countries are boycotting countries
+such a requirement is invalid only if it applies to any or all Arab countries.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessels that are included in any of the "Boycott Blacklists" should be permitted.
+Shipment vessels boycotted by any of the "Boycotting Countries" should should be permitted.
+
+###Text:
+Carrying vessel must not be included in the Iraqi government blackList and a requirement
+for declaration that the producer or manufacturere is not a branch or mother-company
+forbidden to deal with the account party and that no Israeli source participated in
+labor or capital.
+###Response: Let's think step by step.
+
+#34 --------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of "Boycotted Countries": Israel
+List of "Boycotting Countries": Pakistan, Bangladesh, some Arab countries
+List of "Boycott Blacklists": Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. NOTE: since only some Arab countries are boycotting countries
+such a requirement is invalid only if it applies to any or all Arab countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment. 
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There should be no requirement that the shipment vessels be not included in any of the "Boycott Blacklists".
+Shipment vessels boycotted by any of the "Boycotting Countries" should not be prohibited.
+
+###Text:
+Original certificate from the shipping company or agents stating (a) the name, flag and 
+nationality of the carrying vessel and confirming that the carrying vessel will not pass by 
+any Israeli port during its present voyage and (b) that it is permitted to enter all Arab countries
+
+
+###Response: Let's think step by step.
+
+
+
+
+#33 --------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
 If you don't know the answer, just say "I don't know" - don't try to make up an answer.
 Provide your answer in the ###Response section.
 ### Facts:
 List of boycotted countries: Israel
 List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
 ### Rules:
 ### Rule Not From Agent Rule: certificates cannot come from agents.
 ### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
-from or processed in boycotted countries.
+from boycotted countries, or processed in boycotted countries.
 ### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
 the countries or ports of boycotting countries. There must also be no requirement that the shipment 
-company operate in compliance with the laws of boycotting countries regarding 
-vessel, flags, port, shipment and transshipment
-the shipment vessels 
-#### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
 from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Must not disallow carrying vessels from being in any of the "Boycott Blacklists".
+There must also be no requirement that the shipment vessel not be boycotted 
+by any of the "boycotting countries"
+
 ###Text:
+Original certificate from the shipping company or agents stating (a) the name, flag and 
+nationality of the carrying vessel and confirming that the carrying vessel will not pass by 
+any Israeli port during its present voyage and (b) that it is permitted to enter Arab
 
 ###Response: Let's think step by step.
+
+
+
+#32 --------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of "Boycotted Countries": Israel
+List of "Boycotting Countries": Pakistan, Bangladesh, some Arab countries
+List of "Boycott Blacklists": Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There should be no requirement that the shipment vessels be not included in any of the "Boycott Blacklists".
+Shipment vessels boycotted by any of the "Boycotting Countries" should not be prohibited.
+
+###Text:
+Declaration that the carrying vessel is not blacklisted by any of the Arab countries
+as it results from lists deposited with the Arab consular and diplomatic missions abroad
+
+###Response: Let's think step by step.
+
+
+#31 -------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists. There must also be no requirement that 
+ shipment vessel not be boycotted by boycotting countries.
+###Text:
+
+Carrying vessel is not included in the Iraqi government blackList and a requirement
+for declaration that the producer or manufacturere is not a branch or mother-company
+forbidden to deal with the account party and that no Israeli source participated in
+labor or capital.
+###Response: Let's think step by step.
+
+
+#30 --------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists. There must also be no requirement that 
+ shipment vessel not be boycotted by boycotting countries.
+###Text:
+Full set shipping company's clean on board Bill(s) of Lading marked "freight prepaid" to
+order or Xyz Bank, certifying that the carrying steamer is not included in the Iraq
+Government blacklist
+
+
+###Response: Let's think step by step.
+
+
+#29 --------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists. There must also be no requirement that 
+ shipment vessel not be boycotted by boycotting countries.
+###Text:
+
+Negotiations by banks whose names are included in the Israeli Boycott blacklist
+are not accepteable
+
+###Response: Let's think step by step.
+
+
+#28 --------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists. There must also be no requirement that 
+ shipment vessel not be boycotted by boycotting countries.
+###Text:
+
+Declaration that the carrying vessel is not blacklisted by any of the Arab countries
+as it results from lists deposited with the Arab consular and diplomatic missions abroad
+
+###Response: Let's think step by step.
+
+
+#27 -------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists
+###Text:
+Declaration that the carrying vessel is not blacklisted by any of the Arab countries
+as it results from lists deposited with the Arab consular and diplomatic missions abroad
+
+###Response: Let's think step by step.
+
+
+#26 --------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists
+###Text:
+Negotiations by banks whose names are included in the Israeli Boycott blacklist
+are not accepteable
+
+###Response: Let's think step by step.
+
+
+#25 -------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists
+###Text:
+
+Full set shipping company's clean on board Bill(s) of Lading marked "freight prepaid" to
+order or Xyz Bank, certifying that the carrying steamer is not included in the Iraq
+Government blacklist
+
+###Response: Let's think step by step.
+
+
+
+#24 -------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists
+###Text:
+
+Carrying vessel is not included in the Iraqi government blackList and a requirement
+for declaration that the producer or manufacturere is not a branch or mother-company
+forbidden to deal with the account party and that no Israeli source participated in
+labor or capital.
+
+
+###Response: Let's think step by step.
+
+#23 ---------------
+
+## Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists
+###Text:
+A declaration duly signed by theh exporter or the shipping company in the Bill of lading
+or in a separate certificate to the effect that stating that the vessel is not blacklisted.
+
+
+###Response: Let's think step by step.
+
+#22 ----------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: There must be no requirement that the shipment vessel 
+ not be in any of the Boycott Blacklists
+###Text:
+
+A declaration duly signed by theh exporter or the shipping company in the Bill of lading
+or in a separate certificate to the effect that stating that the vessel is not blacklisted.
+
+###Response: Let's think step by step.
+
+
+
+#21 -----------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+
+A declaration duly signed by theh exporter or the shipping company in the Bill of lading
+or in a separate certificate to the effect that stating that the vessel is not blacklisted.
+
+###Response: Let's think step by step.
+
+
+
+#20 -----------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist, Israeli Boycott Blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+
+Certificate of origin must show that no Israeli source had participated in its labor
+or capital. The Certificate of Origin must also show the following: a declaration 
+that the producer or manufacturer is not a branch or a mother company of firms included
+in the Israeli Boycott Blacklist
+
+###Response: Let's think step by step.
+
+
+
+
+#19 -------------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+
+Certificate issued by the manufacturere or exporter stating the origin of the 
+goods and showing the name of theh producer or factory. The certificate is to be approved
+by the local Chamber of Commerce or any official trade committee and legalized by 
+any Arab embassy or consulate in the exporting country except Egypt.
+
+###Response: Let's think step by step.
+
+
+#18 --------------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+Certificate from an approved agent confirming that the material does not contain any
+type of arms, ammunition, mines, shells, cartridges, or explosive material 
+either used or otherwise
+
+###Response: Let's think step by step.
+
+
+#17 ----------------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+
+Invoices must show the name and the nationality/origin of the manufacturers/processors
+of each item of the manufactured/processed goods
+
+###Response: Let's think step by step.
+
+
+
+#16 ----------------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+
+Certificate of origin in duplicate issued by the supplier and enclosed by 
+the Chamber of Commerce or Industrial Union of the exporting country and 
+legalized by a Saudi Arabian embassy or consulate (1) stating the name and
+address of manufacturer of the shipment and (2) also stating that all of
+goods contained in shipment are of various countries of origin (other than Israel or Lebanon)
+with diplomatic relations with Saudi Arabia
+
+###Response: Let's think step by step.
+
+
+
+
+#15 ---------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+1) Certificate of origin covering the oranges of Cyprus origin must show the origin
+of the cartons or cases in which the oranges are packed and (2) must Additionally
+certify that they are not of Israely origin, and that they do not contain any
+Israeli material or handwork
+
+###Response: Let's think step by step.
+
+
+#14 ----------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+
+Certificate of Origin in duplicte and two invoices stating that 
+(a) goods are not elaborate nor do they contain any materials of Israeli origin, and 
+certifying that 
+(b) they are U.S.A and/or Singapore origin, should be duly legalized by 
+the nearest Saudi Arabian Embassy or Consulate and the Chamber of Commerce
+
+###Response: Let's think step by step.
+
+
+#13 ----------------
+
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+
+Your beneficiary declaration is also required on invoices stating that the 
+good are not of Israeli origin
+
+###Response: Let's think step by step.
+
+
+
+
+
+#12 ----------------
+### Instruction: below there are some facts in the ###Facts section.
+Next ###Rules section hasrules about the text in a document. 
+Each rule has a rule name that follows the string "###Rule"
+Your role is to review the text in the ###Text section and flag any violations
+of those rules. 
+Finally end the response with: "Rules violated:" followed by the list of names of the rules that were violated.
+If no rules were violated, say "No rules were violated"
+If you don't know the answer, just say "I don't know" - don't try to make up an answer.
+Provide your answer in the ###Response section.
+### Facts:
+List of boycotted countries: Israel
+List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist
+### Rules:
+### Rule Not From Agent Rule: certificates cannot come from agents.
+### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
+from boycotted countries, or processed in boycotted countries.
+### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
+the countries or ports of boycotting countries. There must also be no requirement that the shipment 
+company operate in compliance with the laws and regulations of boycotting countries regarding 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
+###Text:
+
+Certificate of origin must show:
+(a) Name of the producing country of the goods
+(b) That no Israeli parts or raw had been used in its production. The certificate 
+of origin must also show the following:
+(a) name of producer
+
+###Response: Let's think step by step.
+
+
 
 
 #11 ---------------
@@ -44,17 +923,18 @@ Provide your answer in the ###Response section.
 ### Facts:
 List of boycotted countries: Israel
 List of boycotting countries: Pakistan, Bangladesh, some Arab countries
+List of Boycott Blacklists: Arab blacklist, Iraqi blacklist
 ### Rules:
 ### Rule Not From Agent Rule: certificates cannot come from agents.
 ### Rule Country of Origin Rule: there should be no prohibition of goods originating wholly or in part
-from or processed in boycotted countries.
+from boycotted countries, or processed in boycotted countries.
 ### Rule Authorized Ports Rule: there must be no requirement that the shipment vessel be authorized to enter 
 the countries or ports of boycotting countries. There must also be no requirement that the shipment 
 company operate in compliance with the laws of boycotting countries regarding 
-vessel, flags, port, shipment and transshipment
-the shipment vessels 
-#### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
+vessel, flags, port, shipment and transshipment.
+### Rule No Prohibition of Ports Rule: there must be no prohibition of shipment vessels 
 from entering or going through countries and ports of boycotted countries.
+###Rule Blacklist Rule: Shipment vessel must not be prohibited based on being in any of the Boycott Blacklists
 ###Text:
 12. SHIPMENT/TRANSSHIPMENT OT BE EFFECTED ON VESSEL Authorized
 OT ENTER PORTS OF BANGLADESH ACCORDING TO ITS RULES AND
